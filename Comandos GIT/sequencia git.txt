@@ -1,0 +1,24 @@
+Iniciando repositório loca:
+
+git clone url
+exemplo:
+git clone https://hiperstream@dev.azure.com/hiperstream/SoftwareDelivery/_git/CSU.FaturaJusta.2VIA.HSJ
+
+CD > pasta do repositório
+
+-- baixa arquivos remotos
+git fetch
+
+
+-- git checkout atualiza a branch
+exemplo: git checkout VSO_50486
+
+git pull
+-------------------------------------
+-- atualiza o próximo commit
+git add . 
+
+git commit -m"comenta"
+
+git push
+

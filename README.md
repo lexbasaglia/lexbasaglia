@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @lexbasaglia 
-- 
+- This repository serves as support
 - take a look at my Linkedin profile: https://www.linkedin.com/in/alexis-basaglia/
 
 
