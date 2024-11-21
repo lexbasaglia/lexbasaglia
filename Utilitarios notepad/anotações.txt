@@ -1,0 +1,3 @@
+Expressão regular parar identificar caracteres inválidos
+
+[^a-zA-Z0–9#-_!’”\s].

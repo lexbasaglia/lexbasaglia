@@ -1,0 +1,39 @@
+Iniciar SQL:
+
+ssmc.exe
+
+Abrir SQL Manager:
+mmc.exe
+
+ncpa.cpl - configurações de rede
+
+appwiz.cpl - Abrir adicionar ou remover
+
+wf.msc - Firewall avançando
+
+diskmgmt.msc - gerenciamento de disco
+
+mstsc - area de trabalho remota
+
+
+
+Rede: 
+
+nbstat -a
+nslookup
+IPCONFIG /RELEASE 
+IPCONFIG /FLUSHDNS 
+IPCONFIG /REGISTERDNS 
+NBTSTAT -RR 
+NETSH INT IP RESET C:\RESET.LOG 
+NETSH INT IP RESET ALL 
+NETSH WINSOCK RESET 
+NETSH FIREWALL RESET 
+netsh winhttp reset proxy
+sc delete serviço
+NET VIEW
+systeminfo | find /i “Original”
+regsvr32
+
+Habilitar 3.5 via CMD: 
+Dism /online /enable-feature /featurename:NetFX3
